@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap@5.2.0.css" rel="stylesheet">
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap@5.2.0.js"></script>
+
+    <script src="/js/explo-num.js" defer></script>
+</head>
+
+<body >
+
+<section>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 mb-5">
+        <div class="container">
+            <a href="#" class="navbar-brand"> Ender's Website</a>
+
+            <div class="justify-content-end" id="nav-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section >
+    <div class="container">
+        <div class="text-bg-dark p-5 border rounded-3">
+            <div class="h1 mb-3">Explosive Number</div>
+            <div class="border rounded-2 p-3 text-bg-info">
+                <div class="h5"> Demostration: </div>
+                <p> You can set two number, and explosive is going to be between them. You lose if you pick the explosive number.  </p>
+            </div>
+
+            <div class="row p-2">
+                <div class="col-md-3">
+                    <label for="min-num" class="col-form-label-lg" >Minimum number</label>
+                    <input type="text" class="form-control" id="min-num" placeholder="Ender a small number">
+                    <label for="max-num" class="col-form-label-lg">Maximum number</label>
+                    <input type="text" class="form-control" id="max-num" placeholder="Ender a large number">
+                    <div class="mt-2">
+                        <button class="btn btn-primary text-dark me-3" id="start-but" onclick="start()"> Start </button>
+                        <button class="btn btn-warning" onclick="initial()"> Inital </button> 
+                    </div>
+                    <label for="guess-num" class="col-form-label-lg">Guess the number</label>
+                    <input type="text" class="form-control" id="guess-num" disabled >
+        
+                    <button class="mt-2 btn btn-success" id="guess-but" onclick="guess()" disabled > Guess </button>
+        
+    
+                </div>
+
+                <div class="col-md-9 mt-2">
+                    <div class="h3">Message: </div>
+                    <div class="d-flex align-items-center justify-content-center 
+                     mt-2 border rounded-2 p-3 text-bg-secondary">
+                        <p id="message" class="text-center lead text-break" style="white-space: pre-wrap"> Welcome!</p>
+                    </div>
+                    <div class="mt-5 d-flex align-items-center justify-content-center">
+                        <img src="/img/explosion.png" alt="" height="">
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            
+
+
+        </div>
+
+    </div>
+</section>
+
+        
+</body>
+</html>

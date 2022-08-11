@@ -1,0 +1,22 @@
+.show-submit-message {
+    display:none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:50px;
+    left: calc(50% - 300px / 2);
+    width: 300px;
+    height:30px;
+
+    text-align: center;
+    background-color: rgb(170, 253, 223);
+    
+    color:darkblue;  
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(150, 248, 212);
+
+}
+
+[v-cloak] {
+    display: none;
+}

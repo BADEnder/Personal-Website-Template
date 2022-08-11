@@ -1,0 +1,1 @@
+[{"id":1,"name":"Ender","email":"(secret)","message":"This is for example, because Heroku often restart the server, and you cannot write something or use the database in its virtual space.","time":"20220811\t23:43:04"},{"id":2,"name":"Ender","email":"(secret)","message":"Heroku 線上平台，無法讓你撰寫文件或使用資料庫，但卻常態重啟伺服器，故站存資料也會消失。\n\n這些文章存於json檔案，以供參考。","time":"20220811\t23:45:46"}]
