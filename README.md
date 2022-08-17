@@ -9,11 +9,11 @@ First, you have got to have these software installed in your local machine:
 1. node.js
 2. npm
 
-Second, git this app to your local machine.
+Second, git this app to your local machine, and install something:
+1. `npm install`
 
 Third, run the commands below:
-1. `npm install`
-2. `npm start`
+1. `npm start`
 
 Now, you can click the url in your teminal.
 
