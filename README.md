@@ -12,7 +12,8 @@ First, you have got to have these software installed in your local machine:
 Second, git this app to your local machine.
 
 Third, run the commands below:
-1. `npm start`
+1. `npm install`
+2. `npm start`
 
 Now, you can click the url in your teminal.
 
